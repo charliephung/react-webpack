@@ -1,11 +1,8 @@
 import React from "react";
-
-const a = import("./Test").then(res => {
-  console.log(res);
-});
+import "./styles/_main.scss";
 
 const App = () => {
-  return <div>Hello React!</div>;
+  return <div>Hello React!!!</div>;
 };
 
 export default App;
